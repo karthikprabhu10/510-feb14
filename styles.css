@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #ffcccb;
+    color: #333;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+#main-content {
+    text-align: justify;
+}
+
+.greeting {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.message {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.signature {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: right;
+}
+
+#loveNoteContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#generateLoveNoteButton {
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#generateLoveNoteButton:hover {
+    background-color: #c2185b;
+}
+
+#loveNote {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #e91e63;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .greeting {
+        font-size: 1.2em;
+    }
+
+    #generateLoveNoteButton {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    #loveNote {
+        font-size: 1em;
+    }
+}
